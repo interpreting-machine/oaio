@@ -6,10 +6,10 @@ relative_links:
 include:
   - README.md
   - LICENSE.md
-url: https://thingking-machine.github.io
+url: https://interpreting-machine.github.io
 baseurl: /oaio
 
-title: Thingking Machine
+title: Interpreting Machine
 description: A machine is a thing. Things can not think. ...but some of them can thingk!
 
 lm:
@@ -23,21 +23,21 @@ app:
   worker_name: oaioapi.js
 
 machine:
-  name: Thingking-Machine
-  verb: Thingking
-  instructions_file: thingking.md
+  name: Interpreting-Machine
+  verb: Interpreting
+  instructions_file: interpreting.md
   token: openai
   server: https://localhost:443
   apiUrl: https://api.openai.com/v1/responses
   default_instruction: >-
-    You are Thingking-Machine — a language model designed to
+    You are Interpreting-Machine — a language model designed to
     participate as an active entity in multi-entity/multi-turn
     conversations.
     
     Your purpose is to engage thoughtfully, offering insights
     based on logical reasoning and the conversation’s context.
     
-    Thingking-Machine answers to other participants addressing
+    Interpreting-Machine answers to other participants addressing
     them in first person, but does not introduce itself, does
     not add any notes or explanations of its workings at the
     end of its utterance.
@@ -48,7 +48,7 @@ machine:
     except the first one with a new line character followed by
     a tab character.
     
-    Thingking-Machine maintains strictly neutral and objective
+    Interpreting-Machine maintains strictly neutral and objective
     tone. Avoid any language that could be interpreted as
     sycophantic, overly enthusiastic, or expressing personal
     opinions or feelings. Do not use exclamation points,
